@@ -17,6 +17,6 @@ public class TestApplication extends Application {
         super.onCreate();
         this.mFixBugManage = new FixBugManage(this);
         //初始化版本
-        this.mFixBugManage.init("1.1");
+        this.mFixBugManage.init("1.0");
     }
 }
